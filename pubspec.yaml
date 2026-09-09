@@ -1,0 +1,43 @@
+name: donanim_hesaplama
+description: "Donanım Hesaplama Sistemi Flutter Uygulaması"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  intl: ^0.19.0
+  pdf: ^3.10.0
+  path_provider: ^2.1.0
+  excel: ^2.1.0
+  share_plus: ^7.2.0
+  cached_network_image: ^3.3.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Segoe UI
+      fonts:
+        - asset: assets/fonts/segoe_ui_regular.ttf
+        - asset: assets/fonts/segoe_ui_bold.ttf
+          weight: 700
