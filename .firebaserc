@@ -1,0 +1,13 @@
+{
+  "project": {
+    "projectNumber": "123456789",
+    "projectId": "donanim-hesaplama",
+    "name": "Donanım Hesaplama Sistemi"
+  },
+  "ios": {
+    "bundleId": "com.donanim.hesaplama"
+  },
+  "android": {
+    "packageName": "com.donanim.hesaplama"
+  }
+}

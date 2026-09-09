@@ -1,0 +1,14 @@
+# This file tracks properties used to customize your Flutter build.
+# Usage: `flutter pub run flutter_tools:generate_pubspec_overrides`.
+#
+# Uncomment this and customize the list of platforms enabled for this project.
+# platforms:
+#   android: true
+#   ios: true
+#   linux: true
+#   macos: true
+#   web: true
+#   windows: true
+
+# Enable generation of platform-specific code from decarative UI.
+generate: true
